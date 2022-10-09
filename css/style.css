@@ -1,0 +1,69 @@
+H1, h2{
+    color: #395C28;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 24px;
+    text-align: justify;
+}
+
+[role="search"], #userAvatarIcon{
+    margin: 10px;
+
+}
+
+.container-fluid, .navbar, a{
+    padding: 0px;
+}
+
+.navbar{
+    background-color: #395C28;
+}
+
+.navbar a.active{
+    font-size: larger;
+    background-color: #477232;
+}
+
+ul.navbar-nav a:hover { 
+    background-color: rgb(240, 213, 133) !important;
+    font-size: larger;
+}
+
+/* MODAL */
+.modal.left .modal-dialog
+{
+    position: fixed;
+    margin: auto;
+    /* position: absolute; */
+    left: 0;
+    width:320px;
+    height: 100%;
+    /* -webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0); */
+}
+
+.modal.left .modal-content{
+    height:100%;
+    overflow-y: auto;
+}
+
+.modal.left.fade .modal-dialog{
+    left: 300px;
+    -webkit-transition: opacity 1s linear, left 1s ease-out;
+       -moz-transition: opacity 1s linear, left 1s ease-out;
+         -o-transition: opacity 1s linear, left 1s ease-out;
+            transition: opacity 1s linear, left 1s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog{
+    left: 300px;
+}
+
+.modal-body .btn{
+    color: white;
+    background-color: #A94F4F;
+}
