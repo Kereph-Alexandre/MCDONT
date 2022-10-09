@@ -22,48 +22,56 @@ h2{
 }
 
 .navbar a.active{
-    font-size: larger;
+    /* font-size: larger; */
     background-color: #477232;
 }
 
 ul.navbar-nav a:hover { 
-    background-color: rgb(240, 213, 133) !important;
-    font-size: larger;
+    color: #477232;
+    background-color: rgb(240, 213, 133);
+    /* font-size: larger; */
 }
 
 /* MODAL */
-.modal.left .modal-dialog
+/* Position globale sur la droite de l'affichage */
+.modal.right #userProfilePanel
 {
     position: fixed;
     margin: auto;
-    /* position: absolute; */
-    left: 0;
-    width:320px;
+    right: 0px;
     height: 100%;
-    /* -webkit-transform: translate3d(0%, 0, 0);
-		    -ms-transform: translate3d(0%, 0, 0);
-		     -o-transform: translate3d(0%, 0, 0);
-		        transform: translate3d(0%, 0, 0); */
 }
 
-.modal.left .modal-content{
+/* Utilise la hauteur totale de l'affichage */
+.classtest.right #userProfileContent
+{
     height:100%;
-    overflow-y: auto;
 }
 
-.modal.left.fade .modal-dialog{
-    left: 300px;
-    -webkit-transition: opacity 1s linear, left 1s ease-out;
-       -moz-transition: opacity 1s linear, left 1s ease-out;
-         -o-transition: opacity 1s linear, left 1s ease-out;
-            transition: opacity 1s linear, left 1s ease-out;
-}
-
-.modal.left.fade.in .modal-dialog{
-    left: 300px;
-}
-
+/* Apparence des composants */
 .modal-body .btn{
     color: white;
     background-color: #A94F4F;
+}
+
+/* SECONDE TENTATIVE MODAL SLIDE */
+/* classtest = come-from-modal */
+.classtest.right .modal-dialog{
+    width:320px;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.classtest.right.fade .modal-dialog{
+    right: -320px;
+    -webkit-transition: right 0.3s ease-in;
+    -moz-transition: right 0.3s ease-in;
+    -o-transition: right 0.3s ease-in;
+    transition: right 0.3s ease-in;
+}
+
+.classtest.right.fade.in .modal-dialog {
+    right: 0;
 }
