@@ -1,0 +1,16 @@
+#tabContainer{
+    margin: 10px;
+}
+#contenuTabs{
+    background-color: rgba(71, 114, 50, .3);
+    border-radius: 0 10px 10px 10px;
+    padding: 10px;
+}
+
+#tabModeEasy, #tabModePro{
+    background-color: rgba(71, 114, 50, .7);
+}
+
+#myTab .active{
+    background-color: rgba(71, 114, 50, .3);
+}

@@ -33,7 +33,7 @@ h2{
 
 .navbar a.active{
     /* font-size: larger; */
-    background-color: #477232;
+    background-color: rgba(71, 114, 50, 1);
 }
 
 ul.navbar-nav a:hover { 

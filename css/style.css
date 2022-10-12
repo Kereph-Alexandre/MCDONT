@@ -26,4 +26,20 @@
     height:5px;
 }
 
+/* Contenu de Tout le Site */
+#contenuDePage{
+    background-color: rgba(232, 222, 107, .3);
+    padding: 10px;
+    margin: 0;
+}
+
+#titreDePage{
+    background:rgb(232, 222, 107); 
+    color:rgb(91, 132, 82);
+    font-weight:bold;
+    text-align: center;
+    width: auto;
+    border-radius: 10px;
+}
+
 
