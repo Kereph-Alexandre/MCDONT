@@ -1,0 +1,81 @@
+body {
+    font-family: Segoe UI, Helvetica, sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #fdfbfb;
+   
+  }
+  
+  main {
+    max-width: 1000px;
+    background: white;
+    width: 750px;
+    color: #000000;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  form {
+    padding: 10px;
+  }
+  
+  form input {
+    border-radius: 5px;
+    border: solid 2px #e1dfdf;
+    padding: 5px 0;
+    background: #eeeeee;
+    margin-top: 7px;
+    padding-left: 5px;
+  }
+  
+  form .login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  
+  form .login p {
+    margin: 15px 0;
+    padding: 5px 40px;
+    border-radius: 5px;
+    background: rgb(91, 132, 82);
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  .input__bloc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5px 0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+
