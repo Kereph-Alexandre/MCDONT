@@ -6,23 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>McDon't</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/entre, plat, dessert.css" />
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+
+    <script> 
+      $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+      });
+    </script>
 </head>
 <body>
-   
+       <!-- Chargement HTML -->
+       <div id="header"></div>
 
-    <h1><span style="background:rgb(232, 222, 107); color:rgb(0, 0, 0);font-weight:bold">ENTREES</span></h1>
+    <h3><span style="background:rgb(232, 222, 107); color:rgb(91, 132, 82);font-weight:bold">ENTREES</span></h3>
 
     <a href="https://www.mcdonalds.fr/nos-produits/menus"><h6>Poster ma recette<img src="./images/mcdonalds-app.png" width="60" height="50"></h6></a>
 
-
-    <div class="container" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-
-    <div id="conteneur">
+    <div id="conteneur1">
         <div class="row">
             <div class="col-3"><img src="./images/salade mozzarella.jpg" width="350" height="210" class="image"></div>
                 <div class="col-7"><div>Salade mozzarella (l'italian mozza et pasta)</div>
@@ -31,10 +39,10 @@
                     </div>
                 </div>
         </div>        
-    </div>            
+    </div><BR>            
 
 
-    <div id="conteneur">
+    <div id="conteneur2">
         <div class="row">
             <div class="col-3"><img src="./images/Salade bacon.jpg"width="350" height="210" class="image"></div> 
                 <div class="col-7"><div>Salade bacon et fromage bleu (la tasty blue cheese et bacon)</div>
@@ -42,10 +50,10 @@
                     </div>
                 </div>
         </div>                 
-    </div>
+    </div><br>
            
 
-    <div id="conteneur">
+    <div id="conteneur3">
         <div class="row">
             <div class="col-3"><img src="./images/Salade-Caesar2.jpg" width="350" height="210" class="image"></div>
                 <div class="col-7"><div>Salade césar (la classic caesar)</div>
@@ -54,8 +62,14 @@
                 </div>  
                 
         </div>      
-    </div>
+    </div><BR>
 
+    <div id="footer"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>
 
