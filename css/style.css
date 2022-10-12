@@ -18,8 +18,9 @@ h2{
     text-align: justify;
 }
 
-.container-fluid, .navbar, a{
+#headerContainer, #menuContainer, #barreNavigationTop, #barreNavigationBottom, #menuFooter a{
     padding: 0px;
+    margin: 0;
 }
 
 .navbar{
