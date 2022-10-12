@@ -1,3 +1,13 @@
+#headerContainer *{
+    margin: 0;
+    padding: 0;
+}
+
+#mcdontHeaderLogo{
+    width: auto;
+    height: 100%;
+}
+
 H1, h2{
     color: #395C28;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -8,17 +18,16 @@ h2{
     text-align: justify;
 }
 
-[role="search"], #userAvatarIcon{
-    margin: 10px;
-
-}
-
 .container-fluid, .navbar, a{
     padding: 0px;
 }
 
 .navbar{
     background-color: #395C28;
+}
+
+.navbar a{
+    border-radius: 5px;
 }
 
 .navbar a.active{
@@ -75,3 +84,33 @@ ul.navbar-nav a:hover {
 .classtest.right.fade.in .modal-dialog {
     right: 0;
 }
+
+/* CAROUSEL */
+#accrocheBlock{
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 20px;
+    color: black;
+    position: absolute;
+    bottom: 33%;
+    margin : auto
+}
+
+#accrocheBlock h5{
+    font-size: 3rem;
+}
+
+#accrocheBlock p{
+    font-size: 2rem;
+}
+
+#blockIndicateur{
+    margin: 0 5% 0 5%;
+
+}
+
+#ongletIndicateur{
+    flex : 1 0 auto;
+    height:5px;
+}
+
+
