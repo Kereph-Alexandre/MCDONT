@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Header</title>
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal right fade classtest" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div id="userProfilePanel" class="modal-dialog">
+        <div id="userProfileContent" class="modal-content">
+          <div class="modal-header">
+            <!-- "Titre du Modal" -->
+            <h3 class="modal-title fs-5 mx-auto d-block" id="staticBackdropLabel">
+              <img id="userAvatarIcon" src="./images/Icones/avatar.png" alt="icone d'avatar permettant l'accès au compte personnel"width="100"height="100" class=""/>UserId#3310</h3>
+          </div>
+
+          <div class="modal-body">
+            <!-- Corps du Modal -->
+            <div class="container">
+              <div class="col-10 offset-md-1">
+                <div class="row">
+                  <button type="button" class="userProfileButton btn my-3">Mon Compte</button>
+                </div>
+                <div class="row">
+                  <button type="button" class="userProfileButton btn my-3">Mes Favoris</button>
+                </div>
+                <div class="row">
+                  <button type="button" class="userProfileButton btn my-3">Mes Recettes</button>
+                </div>
+                <div class="row">
+                  <button type="button" class="userProfileButton btn my-3">Mes Reviews</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+      <!-- Container pour tous les éléments du header (hors menu) -->
+      <div id="headerContainer" class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2 col-sm-4">
+            <img id ="mcdontHeaderLogo"src="./images/Icones/mHeaderLogo.jpg" alt="Logo MCDONT, mène à la page d'accueil" class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-10 col-sm-12">
+            <div class="row m-2">
+              <div class="col-sm-12 col-lg-8 align-items-center m-0 p-0 ">
+<!-- Titre 1 Nom du site -->
+                <h1>MCDONT</h1>
+              </div>
+              <div class="col-sm-12 col-lg-4">
+<!-- Barre de recherche -->
+                <form id="headerSearchBar" class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+<!-- 2e ligne de la 2nde Colonne -->
+            <div class="row d-flex align-items-center m-2" >
+              <div class="col-9">
+                <h2>
+                  <!-- Sous-titre / Devise du site -->
+                  Une alternative plus saine et faîte maison de votre Fast-Food
+                  préféré! Des recettes délicieuses pour debutants comme pour
+                  experimentés.
+                </h2>
+              </div>
+<!-- Image de profil de l'utilisateur  -->
+              <div class="col-3 d-flex justify-content-end">
+                    <!-- Button trigger modal -->
+                  <button id="userAvatarButton" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      <img id="userAvatarIcon" src="./images/Icones/avatar.png"alt="icone d'avatar permettant l'accès au compte personnel"width="100"height="100"/>
+                  </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- MENU / Barre de navigation -->
+      <nav id="barreNavigationTop" class="navbar navbar-expand-lg navbar-dark me-auto mb-2 mb-lg-0 nav-fill w-100">
+        <div id="menuContainer" class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-evenly"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./accueil.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Entrées</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Plats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Desserts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+</body>
+</html>
