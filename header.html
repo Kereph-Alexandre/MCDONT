@@ -25,25 +25,52 @@
             <h3 class="modal-title fs-5 mx-auto d-block" id="staticBackdropLabel">
               <img id="userAvatarIcon" src="./images/Icones/avatar.png" alt="icone d'avatar permettant l'accès au compte personnel"width="100"height="100" class=""/>UserId#3310</h3>
           </div>
-
+          
           <div class="modal-body">
-            <!-- Corps du Modal -->
-            <div class="container">
-              <div class="col-10 offset-md-1">
-                <div class="row">
-                  <a href="./Mon_compte.html" type="button" class="userProfileButton btn my-3">Mon Compte</a>
-                </div>
-                <div class="row">
-                  <button type="button" class="userProfileButton btn my-3">Mes Favoris</button>
-                </div>
-                <div class="row">
-                  <button type="button" class="userProfileButton btn my-3">Mes Recettes</button>
-                </div>
-                <div class="row">
-                  <button type="button" class="userProfileButton btn my-3">Mes Reviews</button>
-                </div>
-              </div>
+              <!-- TABS -->
+    <ul class="nav nav-tabs" id="connectStatusTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="connectedTab" data-bs-toggle="tab" data-bs-target="#connectedTabPanel" type="button" role="tab" aria-controls="connectedTabPanel" aria-selected="true">Co</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="disconnectedTab" data-bs-toggle="tab" data-bs-target="#disconnectedTabPanel" type="button" role="tab" aria-controls="disconnectedTabPanel" aria-selected="false">Deco</button>
+      </li>
+    </ul>
+
+    <!-- Contenu des Tab CO/DECO -->
+    <div class="tab-content" id="connectStatusPanels">
+      <div class="tab-pane fade active show" id="connectedTabPanel" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+        <!-- Corps du Modal -->
+        <div class="container">
+          <div class="col-10 offset-md-1">
+            <div class="row">
+              <a href="./Mon_compte.html" type="button" class="userProfileButton btn my-3">Mon Compte</a>
             </div>
+            <div class="row">
+              <button type="button" class="userProfileButton btn my-3">Mes Favoris</button>
+            </div>
+            <div class="row">
+              <button type="button" class="userProfileButton btn my-3">Mes Recettes</button>
+            </div>
+            <div class="row">
+              <button type="button" class="userProfileButton btn my-3">Mes Reviews</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="disconnectedTabPanel" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0"><!-- Corps du Modal -->
+        <div class="container">
+          <div class="col-10 offset-md-1">
+            <div class="row">
+              <a href="./Mon_compte.html" type="button" class="userProfileButton btn my-3">Se Connecter</a>
+            </div>
+            <div class="row">
+              <button type="button" class="userProfileButton btn my-3">S'inscrire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -51,7 +78,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>    
 
     <!-- HEADER -->
     <header>
