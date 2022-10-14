@@ -14,3 +14,14 @@
 #myTab .active{
     background-color: rgba(71, 114, 50, .3);
 }
+
+#ingredientContainer ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#recetteInstructionsContainer h4{
+    color: rgba(71, 114, 50, 1);
+    text-decoration-line: underline ;
+}
