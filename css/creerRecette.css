@@ -1,0 +1,15 @@
+#contenuDePage
+{
+    text-align: center;
+}
+
+input[type=radio]
+{
+  accent-color: rgb(91, 132, 82);
+}
+
+input:placeholder-shown, textarea:placeholder-shown
+{
+    font-style: italic;
+}
+
