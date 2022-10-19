@@ -1,0 +1,3 @@
+Footer : Créer les pages (ou au moins une) et y orienter les liens de bas de page
+
+page Favoris, Recettes, Reviews

@@ -40,65 +40,71 @@
             </h3>
         </div>
 
-    <!-- Lien post de recette -->
-    <div class="row d-flex justify-content-end">
-        <div class="col-3 d-flex justify-content-end">
-            <a id="boutonPostRecette" href="./ficheRecette.html">
-                <h6>Poster ma recette
-                    <img src="./images/mcdonalds-app.png" width="60" height="50">
-                </h6>
-            </a>
+   <!-- Lien post de recette -->
+   <div class="row d-flex justify-content-end">
+    <div class="col-3 d-flex justify-content-end">
+        <a id="boutonPostRecette" href="./creerRecette.html">
+            <h6>Poster ma recette
+                <img src="./images/mcdonalds-app.png" width="60" height="50">
+            </h6>
+        </a>
+    </div>
+</div>
+
+    <div id='conteneurListeRecettes' class="container">
+        <div id="conteneur1" class="container-fluid ligneRecette bordureRonde" >
+            <div class="row position-relative bordureRonde">
+                <div class="col-4">
+                    <img src="./images/mcflurry-bis.jpg" class="img-fluid illustrationRecette bordureRonde">
+                </div>
+                <div class="col-8 descriptionRecette">
+                    <a href="./ficheRecette.html" class="stretched-link"></a>
+                    <h4 class="titreRecette">Mc Flurry</h4>
+                    <p>Un parfait McFlurry maison, avec une crémeuse crème glacée vanille et du croquant en extra, à l’intérieur et en topping.</p>
+                </div>
+            </div>        
+        </div>
+
+        <div id="conteneur2" class="container-fluid ligneRecette bordureRonde" >
+            <div class="row bordureRonde">
+                <div class="col-4">
+                    <img src="./images/sundae-bis.jpg" class="img-fluid illustrationRecette bordureRonde">
+                </div> 
+                <div class="col-8 descriptionRecette">
+                    <h4 class="titreRecette">Sundae</h4>
+                    <p>Ce sundae fait maison est encore meilleur qu'au fast-food et très facile à préparer.</p>
+                </div>
+            </div>
+        </div>
+               
+    
+        <div id="conteneur3" class="container-fluid ligneRecette bordureRonde" >
+            <div class="row bordureRonde">
+                <div class="col-4">
+                    <img src="./images/frappe-bis.jpg" class="img-fluid illustrationRecette bordureRonde">
+                </div>
+                <div class="col-8 descriptionRecette">
+                    <h4 class="titreRecette">Frappé</h4>
+                        <p>
+                            Se rafraîchir tout en bénéficiant des avantages du café, voilà une option intéressante.
+                        </p>
+                </div>
+            </div>      
         </div>
     </div>
-
-   
-
-    <div id="conteneur">
-        <div class="row">
-            <div class="col-3"><img src="./images/mcflurry.jpg" width="350" height="250" class="image"></div>
-                <div class="col-7"><div>Mc Flurry</div>
-                    <div class="col-12">
-                        <div class="span"><p>Un parfait McFlurry maison, avec une crémeuse crème glacée vanille et du croquant en extra, à l’intérieur et en topping.</p>
-                        </div>
-                    </div>
-                </div>        
-        </div>            
-
-
-    <div id="conteneur">
-        <div class="row">
-            <div class="col-3"><img src="./images/sundae.jpg"width="350" height="210" class="image"></div> 
-                <div class="col-7"><div>Sundae</div>
-                    <div class="col-12">
-                        <div class="span"><p>Ce sundae fait maison est encore meilleur qu'au fast-food et très facile à préparer.</p>
-                        </div>
-                    </div>
-
-                </div>
-        </div>                 
     </div>
-           
-
-    <div id="conteneur">
-        <div class="row">
-            <div class="col-3"><img src="./images/frappe.jpg" width="350" height="210" class="image"></div>
-                <div class="col-7"><div>Frappé</div>
-                    <div class="col-12"><p>
-                        <div class="span">Se rafraîchir tout en bénéficiant des avantages du café, voilà une option intéressante.</p>
-                        
-                        </div>
-                    </div>
-                </div>  
-                
-        </div>      
-    </div>
+</div>
+</div>
 
     <div id="footer"></div>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/main.js"></script>
 
 </body>
 </html>
