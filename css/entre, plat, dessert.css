@@ -1,4 +1,4 @@
-
+/* 
 div{
   text-align: left;
 }
@@ -10,7 +10,7 @@ h6{
 
 a{
   text-decoration: none;
-}
+} */
 
 #titreDePage{
   text-align: center;
@@ -18,6 +18,41 @@ a{
   font-weight: bold;
 }
 
-.row{
-  text-align: left;
+#conteneurListeRecettes{
+  margin : 0;
+  padding: 0;
 }
+
+#conteneur1{
+  margin : 0 0 20px 0;
+  padding : 0;
+  border-radius: 20px;
+}
+
+#conteneur2{
+  margin : 20px 0 20px 0;
+  padding : 0;
+}
+
+#conteneur3{
+  margin : 20px 0 0 0;
+  padding : 0;
+}
+
+.bordureRonde{
+  border-radius: 20px;
+}
+
+.ligneRecette{
+  background: rgba(230, 221, 125, 0.4);
+  padding-bottom : 40px;
+  margin-bottom: 40px;
+}
+
+/* .row{
+  text-align: left;
+} */
+
+/* *{
+  border: black solid 1px;
+} */
