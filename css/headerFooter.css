@@ -59,7 +59,12 @@ ul.navbar-nav a:hover {
 }
 
 /* Apparence des composants */
-.modal-body .btn{
+.userProfileButton{
+    color: white;
+    background-color: #A94F4F;
+}
+
+.userProfileButton:hover{
     color: white;
     background-color: #A94F4F;
 }

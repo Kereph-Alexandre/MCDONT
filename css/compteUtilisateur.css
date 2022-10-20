@@ -67,3 +67,8 @@ p{
 #titreDePage{
   margin-top: 10px;
 }
+
+#changeMDPBtn{
+  color: white;
+  background-color: #A94F4F;
+}
