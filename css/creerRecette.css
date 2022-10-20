@@ -13,3 +13,11 @@ input:placeholder-shown, textarea:placeholder-shown
     font-style: italic;
 }
 
+button 
+{
+    border-radius: 5px !important;
+    align-items: center;
+    background-color:rgb(91, 132, 82) ;
+    color: white;
+}
+
