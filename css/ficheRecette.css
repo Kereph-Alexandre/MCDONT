@@ -25,3 +25,7 @@
     color: rgba(71, 114, 50, 1);
     text-decoration-line: underline ;
 }
+
+.bordureRonde{
+    border-radius: 5%;
+}

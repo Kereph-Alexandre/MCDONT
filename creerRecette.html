@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Poster ma recette - MCDONT</title>
 
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -35,51 +35,72 @@
 
 
 <div id="contenuDePage">
-<form method="get">
-
-    <label for="entrees">
-        <input type="radio" name="type" value="entree">Entrée
-    </label>
-    <label for="plat">
-        <input type="radio" name="type" value="plat">Plat
-    </label>
-    <label for="dessert">
-        <input type="radio" name="type" value="dessert">Dessert
-    </label>
-    <br/>
-    <br/>
-
-    <label for="titre"> Titre : <br/>
-        <input type="text" name="titre" placeholder="Titre de votre recette..." size="80">
-    </label>
-    <br/>
-    <br/>
-    <label for="Recette"> Recette : <br/>
-        <textarea name="Recette" id="" cols="83" rows="10" placeholder="Detaillez ici les etapes de votre recette..."></textarea>
-    </label>
-    <br/>
-    <br/>
-    Level : 
-    <br/>
-    <label for="mceasy">
-        <input type="radio" name="level" value="mceasy">McEasy
-    </label>
-    <label for="mchard">
-        <input type="radio" name="level" value="mcHard">McHard
-    </label>
-    <br/>
-    <br/>
-    Documents:
-    <br/>
-    <label for="img">Select image:</label>
-    <input type="file" id="img" name="img" accept="image/*">
-    <input type="submit">
-    <br/>
-    <br/>
-    <button type="submit" name="submit">Poster ma recette</button>
+    <div class="row d-flex justify-content-center">
+        <div class="col-3">
+            <!-- Titre de page -->
+            <h3 id="titreDePage">
+                POSTER MA RECETTE
+            </h3>
+        </div>
+    </div>
     
+    <form method="get">
 
-</form>
+        <div class="container-fluid">
+            <div class="col-12 labelFormulaire">
+                Quel type de plat ?
+            </div>
+            <div class="col-12 ligneFormulaire">
+                <label for="entrees">
+                    <input type="radio" name="type" value="entree">Entrée
+                </label>
+                <label for="plat">
+                    <input type="radio" name="type" value="plat">Plat
+                </label>
+                <label for="dessert">
+                    <input type="radio" name="type" value="dessert">Dessert
+                </label>
+            </div>
+        </div>
+    
+        <div class="col-12 ligneFormulaire">
+            <label for="titre"> Titre : <br/>
+                <input type="text" name="titre" placeholder="Titre de votre recette..." size="80">
+            </label>
+        </div>
+
+        <div class="col-12 ligneFormulaire">
+            <label for="Recette"> Recette : <br/>
+                <textarea name="Recette" id="" cols="83" rows="10" placeholder="Detaillez ici les etapes de votre recette..."></textarea>
+            </label>
+        </div>
+        
+        <div class="col-12 labelFormulaire">
+            Level : 
+        </div>
+        <div class="col-12 ligneFormulaire">
+        <label for="mceasy">
+            <input type="radio" name="level" value="mceasy">McEasy
+        </label>
+        <label for="mchard">
+            <input type="radio" name="level" value="mcHard">McHard
+        </label>
+        </div>
+        
+        <div class="col-12 labelFormulaire">
+            Documents:
+        </div>
+
+        <div class="col-12 ligneFormulaire">
+            <label for="img">Select image:</label>
+            <input type="file" id="img" name="img" accept="image/*">
+            <input type="submit">
+        </div>
+
+        <div class="col-12 ligneFormulaire">
+            <button type="submit" name="submit">Poster ma recette</button>
+        </div>
+    </form>
 </div>
 
     <div id="footer"></div>

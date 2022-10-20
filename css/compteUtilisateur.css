@@ -63,3 +63,12 @@ p{
 .row{
   background-color: rgb(255, 255, 255);
 }
+
+#titreDePage{
+  margin-top: 10px;
+}
+
+#changeMDPBtn{
+  color: white;
+  background-color: #A94F4F;
+}
